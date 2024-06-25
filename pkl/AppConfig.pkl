@@ -1,0 +1,7 @@
+@go.Package { name = "github.com/j3-n/pkl-test/config" }
+module pkl_test.pkl.AppConfig
+
+import "package://pkg.pkl-lang.org/pkl-go/pkl.golang@0.7.0#/go.pkl"
+
+foo: String?
+bar: String?

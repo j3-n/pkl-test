@@ -1,0 +1,11 @@
+amends "pkl:Project"
+
+package {
+    name = "pkl-test"
+    version = "0.1.0"
+    description = "pkl test."
+    license = "MIT"
+    baseUri = "package://pkg.pkl-lang.org/github.com/j3-n/\(name)"
+    packageZipUrl = "https://github.com/j3-n/pkl-test/releases/download/\(name)@\(version)/\(name)@\(version).zip"
+    sourceCode = "https://github.com/j3-n/pkl-test"
+}
